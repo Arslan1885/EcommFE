@@ -1,0 +1,95 @@
+.hero-img {
+    background-image: linear-gradient(rgba(65, 138, 223, 0.1), rgba(202, 28, 188, 0.2)), url('../../Asserts/home-hero.jpg');
+    height: 85vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-text {
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 80px;
+    font-family: "Dancing Script", cursive;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .hero-img {
+        height: 40vh;
+    }
+
+    .hero-text {
+        top: 25%;
+        left: 20%;
+        transform: translate(-50px, -50px);
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-text h1 {
+        font-weight: 900;
+        font-size: 40px;
+        font-family: "Dancing Script", cursive;
+    }
+
+    
+}
+
+@media only screen and (min-width:767px) and (max-width:835px) {
+    .hero-img {
+        height: 60vh;
+    }
+
+    .hero-text {
+        top: 35%;
+        left: 20%;
+        transform: translate(-50px, -50px);
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-text h1 {
+        font-weight: 900;
+        font-size: 60px;
+        font-family: "Dancing Script", cursive;
+    }
+
+
+}
+.h-img{
+    height: 220px;
+    width: 90%;
+}
+.h-ul .h-li{
+    font-size: 17px;
+}
+.home-h{
+    font-family: "Dancing Script", cursive;
+}
+
+@media only screen and (min-width:320px) and (max-width:833px) {
+    .h-flex{
+        flex-direction: column;
+    }
+        .h-img {
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            margin-bottom: 45px;
+            height: 100%;
+            width: 100%;
+        }
+        
+    
+}
